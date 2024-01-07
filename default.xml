@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="IJoshC"
+           fetch="."
+           review="https://github.com/IJoshC/" />
+  <default revision="main"
+           remote="IJoshC"
+           sync-j="4" />
+
+  <project path="kernel" name="kernel" revision="develop-4.4"/>
+  <project path="u-boot" name="u-boot" revision="next-dev"/>
+   <project path="rkbin" name="master" />
+  
+</manifest>
